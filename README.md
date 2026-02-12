@@ -10,3 +10,11 @@ This repo will contain
 3. helpful shortcuts, tips, and nano commands
 
 #### I have learned to keep thorough documentation during this process. Each time I work in the server, exit it, then reopen, my history from my last open is not shown. So, I need to make sure to include the changes I used and commands I sent on this repo to keep track of my progress. If I make a mistake, I can easily reference this doc to see where I went wrong.
+nano commands
+- Ctrl+S   	Save current file
+- Ctrl+O	Offer to write file ("Save as")
+- Ctrl+R	Insert a file into current one
+- Ctrl+X	Close buffer, exit from nano
+- Ctrl+L	Refresh the screen
+- new file: nano new_filename
+  
