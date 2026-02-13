@@ -28,3 +28,12 @@ carat key ^ removes the first line and $ removes the end of the line.
 -w results as a complete word so instead of os (like dos or bios) itll just pull up "os"
 -A NUM (you gotta insert an actual number) will bring up the context of lines surrounding the matches. 
 -n instructs grep to tell you the number for each hit. 
+
+*added 250 documents from web of science called savedrecs.bib*
+use less savedrecs.bib to view the whole doc
+tried out these commands to specify lines starting with journal (aka only pulling the journal) grep -i "^journal =" savedrecs.bib | cut -d"=" -f2 |\
+    sed 's/ {//' | sed 's/},//' | \
+    sort | uniq -c | sort -nr
+TO EXIT FILE READING MODE IN LESS 'Q' !!!
+
+made a new nano file for the example called "operating-systems.csv"
