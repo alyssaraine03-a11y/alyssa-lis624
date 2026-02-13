@@ -20,3 +20,11 @@ nano commands
   
 ~2/12/2026~
 rebooted system on vm. used 'sudo reboot now' command. 
+# grep #
+its a searching tool. so grep searches line of code/text and searches for patterns. it is case-sensitive by default, so -i can ignore the case sensitivity. for example: instead of grep "chrome" operating-systems.csv you need to search grep -i "chrome" operating-systems.csv
+grep -vi reverse searches 
+carat key ^ removes the first line and $ removes the end of the line. 
+| key in parenthesis is searching for multiple things. so "(this|that)"
+-w results as a complete word so instead of os (like dos or bios) itll just pull up "os"
+-A NUM (you gotta insert an actual number) will bring up the context of lines surrounding the matches. 
+-n instructs grep to tell you the number for each hit. 
