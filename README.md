@@ -18,3 +18,5 @@ nano commands
 - Ctrl+L	Refresh the screen
 - new file: nano new_filename
   
+~2/12/2026~
+rebooted system on vm. used 'sudo reboot now' command. 
