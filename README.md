@@ -61,3 +61,7 @@ sudo apt upgrade
 sudo apt autoremove
 sudo apt clean
 
+## installed yaz-client
+sudo apt install yaz
+to use yaz, its "yaz-client"
+
