@@ -37,3 +37,27 @@ tried out these commands to specify lines starting with journal (aka only pullin
 TO EXIT FILE READING MODE IN LESS 'Q' !!!
 
 made a new nano file for the example called "operating-systems.csv"
+
+## week 6
+sudo: package manager    root: the superuser/admin
+apt does not require sudo! 'apt search' doesnt modify anything, just searches. 
+tldr gives common commands and easy explanations!!! apt search tldr
+if you want to remove a package and extra stuff, use sudo apt --purge remove tldr
+sudo apt autoremove
+sudo apt clean when you install packages to free up disk space
+to download .deb files (ubuntu) use the dpkg command sudo dpkg -i <file_name.deb>
+# to locate and search software:
+sudo apt update
+apt search <package_name>
+apt show <package_name>
+sudo apt install <package_name>
+# to remove software and purge related files 
+sudo apt --purge remove <package_name>
+sudo apt autoremove
+sudo apt clean
+# keep system up to date 
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+sudo apt clean
+
