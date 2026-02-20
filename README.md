@@ -65,3 +65,4 @@ sudo apt clean
 sudo apt install yaz
 to use yaz, its "yaz-client"
 
+open saalck-uky.alma.exlibrisgroup.com:1921/01SAA_UKY
