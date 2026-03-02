@@ -66,3 +66,11 @@ sudo apt install yaz
 to use yaz, its "yaz-client"
 
 open saalck-uky.alma.exlibrisgroup.com:1921/01SAA_UKY
+apache!!
+installed apache2 with sudo apt install apache2
+use the systemctl command to acquire status info about apache2 and make sure it is enabled and running
+i installed elinks using 'sudo apt install elinks'
+my external ip address is 35.223.130.84 so to open elinks you say elinks 35.223.130.84
+to open your webpage you made, say 'sudo nano index.html'
+now you can use any html you know to make a webpage!!
+to open webpage, http://35.223.130.84/
