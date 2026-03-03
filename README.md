@@ -10,25 +10,9 @@ This repo will contain
 3. helpful shortcuts, tips, and nano commands
 
 #### I have learned to keep thorough documentation during this process. Each time I work in the server, exit it, then reopen, my history from my last open is not shown. So, I need to make sure to include the changes I used and commands I sent on this repo to keep track of my progress. If I make a mistake, I can easily reference this doc to see where I went wrong.
-nano commands
-- Ctrl+S   	Save current file
-- Ctrl+O	Offer to write file ("Save as")
-- Ctrl+R	Insert a file into current one
-- Ctrl+X	Close buffer, exit from nano
-- Ctrl+L	Refresh the screen
-- new file: nano new_filename
-  
+
 ~2/12/2026~
 rebooted system on vm. used 'sudo reboot now' command. 
-# grep #
-its a searching tool. so grep searches line of code/text and searches for patterns. it is case-sensitive by default, so -i can ignore the case sensitivity. for example: instead of grep "chrome" operating-systems.csv you need to search grep -i "chrome" operating-systems.csv
-grep -vi reverse searches 
-carat key ^ removes the first line and $ removes the end of the line. 
-| key in parenthesis is searching for multiple things. so "(this|that)"
--w results as a complete word so instead of os (like dos or bios) itll just pull up "os"
--A NUM (you gotta insert an actual number) will bring up the context of lines surrounding the matches. 
--n instructs grep to tell you the number for each hit. 
-
 *added 250 documents from web of science called savedrecs.bib*
 use less savedrecs.bib to view the whole doc
 tried out these commands to specify lines starting with journal (aka only pulling the journal) grep -i "^journal =" savedrecs.bib | cut -d"=" -f2 |\
