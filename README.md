@@ -30,20 +30,6 @@ if you want to remove a package and extra stuff, use sudo apt --purge remove tld
 sudo apt autoremove
 sudo apt clean when you install packages to free up disk space
 to download .deb files (ubuntu) use the dpkg command sudo dpkg -i <file_name.deb>
-# to locate and search software:
-sudo apt update
-apt search <package_name>
-apt show <package_name>
-sudo apt install <package_name>
-# to remove software and purge related files 
-sudo apt --purge remove <package_name>
-sudo apt autoremove
-sudo apt clean
-# keep system up to date 
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-sudo apt clean
 
 ## installed yaz-client
 sudo apt install yaz
@@ -58,3 +44,5 @@ my external ip address is 35.223.130.84 so to open elinks you say elinks 35.223.
 to open your webpage you made, say 'sudo nano index.html'
 now you can use any html you know to make a webpage!!
 to open webpage, http://35.223.130.84/
+## 3/7/26 installed tmux ##
+used 'apt search tmux', 'sudo apt install tmux', and 'tmux' to open new window. 
