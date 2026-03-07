@@ -15,4 +15,5 @@ new file: nano new_filename
 *q is a quick exit*
 ## using sudo/apt ##
 'apt search' is a searching tool. using 'apt search tldr' filters out extra info, only gives cut and dry
+'sudo reboot now' if it says your system needs a reboot.
 
