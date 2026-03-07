@@ -14,6 +14,19 @@ new file: nano new_filename
 - -w will turn up the exact word, not just parts of words
 *q is a quick exit*
 ## using sudo/apt ##
-'apt search' is a searching tool. using 'apt search tldr' filters out extra info, only gives cut and dry
-'sudo reboot now' if it says your system needs a reboot.
+- 'apt search' is a searching tool. using 'apt search tldr' filters out extra info, only gives cut and dry
+- 'sudo reboot now' if it says your system needs a reboot.
+*to locate and search software*
+- apt search <package_name>
+- apt show <package_name>
+- sudo apt install <package_name>
+*to remove software and purge related files*
+- sudo apt --purge remove <package_name>
+- sudo apt autoremove
+- sudo apt clean
+*to keep system up to date*
+- sudo apt update
+- sudo apt upgrade
+- sudo apt autoremove
+- sudo apt clean
 
