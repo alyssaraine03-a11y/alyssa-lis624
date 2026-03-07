@@ -65,3 +65,41 @@ now you can use any html you know to make a webpage!!
 
 ## 3/7/26 installed tmux ##
 used 'apt search tmux', 'sudo apt install tmux', and 'tmux' to open new window. 
+
+## PHP
+installed php using 
+- sudo apt install php libapache2-mod-php
+- sudo systemctl restart apache2
+
+confirmed installed version using php -v
+
+then restarted apache and checked for errors (none)
+it showed enabled and active/running
+
+created a sample doc in the root using 
+- cd /var/www/html/
+- sudo nano info.php (which opened up a nano doc called info.php
+- added the following command to the doc
+<?php
+phpinfo();
+?>
+
+saved and closed using ctrl+S and ctrl+X
+
+i visited the file from my browser with: http://35.223.130.84/info.php 
+
+when it was confirmed to be the same as the lecture notes showed, i removed it using instrtuctions provided by lecture
+
+### configuring php
+1. changed directories using cd /etc/apache2/mods-available/
+2. sudo cp dir.conf dir.conf.bak
+3. opened the file using sudo nano dir.conf
+
+i then manually changed the line to make index.php the first after DirectoryIndex
+
+checked config using apachectl1 configtest
+*i got the syntax ok message*
+
+reloaded and checked status using 
+- sudo systemctl reload apache2
+- systemctl status apache2 (it says active running and enabled)
