@@ -11,11 +11,17 @@ This repo will contain
 
 #### I have learned to keep thorough documentation during this process. Each time I work in the server, exit it, then reopen, my history from my last open is not shown. So, I need to make sure to include the changes I used and commands I sent on this repo to keep track of my progress. If I make a mistake, I can easily reference this doc to see where I went wrong.
 
-~2/12/2026~
-rebooted system on vm. used 'sudo reboot now' command. 
+## 2/12/2026 
+- rebooted system on vm.
+- used 'sudo reboot now' command. 
+
 *added 250 documents from web of science called savedrecs.bib*
+
 use less savedrecs.bib to view the whole doc
-tried out these commands to specify lines starting with journal (aka only pulling the journal) grep -i "^journal =" savedrecs.bib | cut -d"=" -f2 |\
+
+### tried out these commands to specify lines starting with journal (aka only pulling the journal) ###
+
+grep -i "^journal =" savedrecs.bib | cut -d"=" -f2 |\
     sed 's/ {//' | sed 's/},//' | \
     sort | uniq -c | sort -nr
 TO EXIT FILE READING MODE IN LESS 'Q' !!!
@@ -24,11 +30,17 @@ made a new nano file for the example called "operating-systems.csv"
 
 ## week 6
 sudo: package manager    root: the superuser/admin
+
 apt does not require sudo! 'apt search' doesnt modify anything, just searches. 
-tldr gives common commands and easy explanations!!! apt search tldr
-if you want to remove a package and extra stuff, use sudo apt --purge remove tldr
-sudo apt autoremove
-sudo apt clean when you install packages to free up disk space
+
+tldr gives common commands and easy explanations!!! 
+*apt search tldr*
+
+if you want to remove a package and extra stuff, 
+- use sudo apt --purge remove tldr
+- sudo apt autoremove
+- sudo apt clean when you install packages to free up disk space
+  
 to download .deb files (ubuntu) use the dpkg command sudo dpkg -i <file_name.deb>
 
 ## installed yaz-client
@@ -36,13 +48,20 @@ sudo apt install yaz
 to use yaz, its "yaz-client"
 
 open saalck-uky.alma.exlibrisgroup.com:1921/01SAA_UKY
-apache!!
-installed apache2 with sudo apt install apache2
+# apache!!
+installed apache2 with:
+- sudo apt install apache2
+  
 use the systemctl command to acquire status info about apache2 and make sure it is enabled and running
+
 i installed elinks using 'sudo apt install elinks'
+
 my external ip address is 35.223.130.84 so to open elinks you say elinks 35.223.130.84
-to open your webpage you made, say 'sudo nano index.html'
+
+### to open your webpage you made, say 'sudo nano index.html'
+
 now you can use any html you know to make a webpage!!
-to open webpage, http://35.223.130.84/
+### to open webpage, http://35.223.130.84/
+
 ## 3/7/26 installed tmux ##
 used 'apt search tmux', 'sudo apt install tmux', and 'tmux' to open new window. 
