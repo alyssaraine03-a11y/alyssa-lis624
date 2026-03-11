@@ -103,3 +103,7 @@ checked config using apachectl1 configtest
 reloaded and checked status using 
 - sudo systemctl reload apache2
 - systemctl status apache2 (it says active running and enabled)
+## mysql
+
+installed mysql with sudo apt install mysqyl-server
+used the command 'systemctl status mysql' to confirm it was active and running and enabled
