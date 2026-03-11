@@ -107,3 +107,7 @@ reloaded and checked status using
 
 installed mysql with sudo apt install mysqyl-server
 used the command 'systemctl status mysql' to confirm it was active and running and enabled
+
+created user 'opacuser'@'localhost' identified by 'piper777';
+
+left off on the requiring password part, i got stuck and it wouldnt let me type my password. 
