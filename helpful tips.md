@@ -33,3 +33,21 @@ new file: nano new_filename
 - sudo apt autoremove
 - sudo apt clean
 
+## mysql
+
+to login to the database: 
+- sudo mysql -u root
+- /c clears current input
+
+user_name@computer_name:path$ is what you use so lyssaraine03@spring624alyssa:path$
+
+*mysql always needs to end commands w semicolon;* 
+
+use a forward slash!!!! copy this
+
+\q
+
+to exit mysql
+
+if you get stuck ctrl + c
+
