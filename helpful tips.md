@@ -51,3 +51,4 @@ to exit mysql
 
 if you get stuck ctrl + c
 
+when it says enter password, it DOESNT SHOW YOU TYPING. YOU HAVE TO ENTER THE PW EXACTLY AND PRESS ENTER
