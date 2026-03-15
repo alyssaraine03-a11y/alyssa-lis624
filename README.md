@@ -111,3 +111,5 @@ used the command 'systemctl status mysql' to confirm it was active and running a
 created user 'opacuser'@'localhost' identified by 'piper777';
 
 left off on the requiring password part, i got stuck and it wouldnt let me type my password. 
+
+okay i had to redo the grant all privileges and it allowed me to continue. 
