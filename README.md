@@ -137,4 +137,6 @@ it showed enabled and active/running
 installed mysql with sudo apt install mysqyl-server
 used the command 'systemctl status mysql' to confirm it was active and running and enabled
 
+## creating an opac
+in mysql, open nano mylibrary.html
 
