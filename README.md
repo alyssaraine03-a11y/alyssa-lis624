@@ -1,6 +1,4 @@
 # alyssa-lis624
-# server setup documentation halfway down the file!! #
-
 **For spring 2026, lis 624**
 what you have set up so far,
 what this repo will contain,
@@ -50,20 +48,6 @@ sudo apt install yaz
 to use yaz, its "yaz-client"
 
 open saalck-uky.alma.exlibrisgroup.com:1921/01SAA_UKY
-# apache!!
-installed apache2 with:
-- sudo apt install apache2
-  
-use the systemctl command to acquire status info about apache2 and make sure it is enabled and running
-
-i installed elinks using 'sudo apt install elinks'
-
-my external ip address is 35.223.130.84 so to open elinks you say elinks 35.223.130.84
-
-### to open your webpage you made, say 'sudo nano index.html'
-
-now you can use any html you know to make a webpage!!
-### to open webpage, http://35.223.130.84/
 
 ## 3/7/26 installed tmux ##
 used 'apt search tmux', 'sudo apt install tmux', and 'tmux' to open new window. 
@@ -100,7 +84,3 @@ it showed enabled and active/running
 
 installed mysql with sudo apt install mysqyl-server
 used the command 'systemctl status mysql' to confirm it was active and running and enabled
-
-## creating an opac
-in mysql, open nano mylibrary.html
-
