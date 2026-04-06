@@ -67,19 +67,7 @@ okay i had to redo the grant all privileges and it allowed me to continue.
 # server setup documentation for module 4 #
 
 A LAMP stack (Linux, Apache, MySQL, and PHP) is a bundle that helps web applications run smoothly and operate efficiently. Linux is the operating system, Apache is a web server, MySQL is a database for storing data, and PHP is the language used. According to IBM, the user/client requests information from the web server (Apache) and is sent to PHP. PHP sends the request to MySQL to get the data from storage/code. Once the data is received, PHP sends the info back to the web server and client. 
-# apache!!
-installed apache2 with:
-- sudo apt install apache2
-  used the systemctl command to acquire status info about apache2 and make sure it is enabled and running
-## PHP
-installed php using 
-- sudo apt install php libapache2-mod-php
-- sudo systemctl restart apache2
 
-confirmed installed version using php -v
-
-then restarted apache and checked for errors (none)
-it showed enabled and active/running
   ## mysql
 
 installed mysql with sudo apt install mysqyl-server
