@@ -59,14 +59,7 @@ first, login to mysql
 sudo mysql -u root
 ```
 create a new user and password. 
-**password is p1p3r**
-```
-create user 'wordpress'@'localhost' identified by 'p!p3rJEAN';
-create database wordpress;
-grant all privileges on wordpress.* to 'wordpress'@'localhost';
-show databases;
-\q
-```
+
 ## config
 same thing we did with opacuser/opacdb but with wordpress
 ```
@@ -74,19 +67,10 @@ cd /var/www/html/wordpress
 sudo cp wp-config-sample.php wp-config.php
 sudo nano wp-config.php
 ```
-### user and pw
-database user: wordpress
-database name: wordpress
-database pw: p!p3rJEAN
 
 ## site
 http://35.223.130.84/wordpress
 
 - site name: Alyssa's Site LIS624
-- username: alraine7
-- pw: sOm)O8ez7BxTO&TMsv
-
-YIPPEE!!
-
 
 
