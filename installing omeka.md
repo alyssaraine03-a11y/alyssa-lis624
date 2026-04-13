@@ -32,3 +32,12 @@ now im ready to install omeka!
 
 ## installing omeka
 ### creating a new database in mysql
+open mysql. creae a new database titled "omeka". 
+```
+create user ‘omeka’@'localhost' identified by 'XXXXXXXXX';
+create database ‘omeka’;
+grant all privileges on ‘omeka’.* to 'omeka'@'localhost';
+show databases;
+\q
+```
+
