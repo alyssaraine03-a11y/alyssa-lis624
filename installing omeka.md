@@ -41,3 +41,13 @@ show databases;
 \q
 ```
 
+## stuck!
+i've tried to download and extract the latest omeka version, but no command I do seems to work. I have tried the following commands
+```
+sudo wget https://omeka.org/classic
+sudo wget https://omeka.org/classic.zip
+sudo wget https://omeka.org/classic/latest.zip
+sudo wget https://omeka.org/omeka-3.2.0.zip
+sudo wget https://omeka.org/latest.zip
+```
+and different combinations of the above phrases. nothing has worked to be able to unzip a file. what am I doing wrong?
