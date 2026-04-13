@@ -60,4 +60,8 @@ then to unzip use this command
 ```
 sudo unzip omeka-3.2.zip
 ```
-i renamed it to digital_library
+i renamed it to digital_library using the mv command. next, i had to find the db.ini file. i used ls -la while in the /digital-library directory to find it. then, to open it i used 
+```
+cat db.ini
+```
+
