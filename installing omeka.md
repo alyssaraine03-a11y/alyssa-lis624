@@ -51,3 +51,13 @@ sudo wget https://omeka.org/omeka-3.2.0.zip
 sudo wget https://omeka.org/latest.zip
 ```
 and different combinations of the above phrases. nothing has worked to be able to unzip a file. what am I doing wrong?
+## thank you dr. burns, now we continue !
+to download the .zip
+```
+sudo wget https://github.com/omeka/Omeka/releases/download/v3.2/omeka-3.2.zip
+```
+then to unzip use this command 
+```
+sudo unzip omeka-3.2.zip
+```
+i renamed it to digital_library
