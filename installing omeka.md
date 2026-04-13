@@ -60,8 +60,7 @@ then to unzip use this command
 ```
 sudo unzip omeka-3.2.zip
 ```
-i renamed it to digital_library using the mv command. next, i had to find the db.ini file. i used ls -la while in the /digital-library directory to find it. then, to open it i used 
-```
-cat db.ini
-```
+i renamed it to digital_library using the mv command. next, i had to find the db.ini file. i opened it to edit using sudo nano db.ini
+### encountered mod rewrite issue
+i opened sudo nano /etc/apache2/apache2.conf and edited the /var/www/html directory to AllowOverwrite All. problem solved!!
 
