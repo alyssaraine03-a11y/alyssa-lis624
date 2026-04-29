@@ -69,7 +69,7 @@ sudo nano wp-config.php
 ```
 
 ## site
-http://35.223.130.84/wordpress
+http://34.44.199.182/wordpress
 
 - site name: Alyssa's Site LIS624
 
