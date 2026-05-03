@@ -5,15 +5,15 @@ systemctl apache2
 sudo apt install elinks
 ```
 ## external IP address
- 35.223.130.84
+ 34.44.199.182
 
- to open elinks just say elinks  35.223.130.84
+ to open elinks just say elinks  34.44.199.182
  ### opening the webpage
  on the command line
 ```
 sudo nano index.html
 ```
-on the internet: https://35.223.130.84
+on the internet: https://34.44.199.182
 # reflection
 ## whats a web server?
 A web server is a software that allows users to access websites. Using HTTP, a web server accepts (or denies with an error message) requests from users to view the webpage’s content. A client will request a connection to the webpage from their browser (like Google or Firefox), and the server will allow or deny access. A web server also stores information and content, and it will find the files you request through your browser. 
