@@ -70,12 +70,11 @@ sudo nano wp-config.php
 
 ## site
 http://34.44.199.182/wordpress
-
-- site name: Alyssa's Site LIS624
+- site name: Alyssa's Library
 
 # troubleshooting
 
 had to move, so my ip address changed. i can access my wp site, but NOT the admin page. i stopped my vm and restarted, which updated to my new ip address. however, the wp admin site is showing a 404 error. The requested URL was not found on this server.
 
-
-
+# How I fixed this
+I created a new VM titled finalprojectalyssasmith, then followed the instructions above. Now it's working. Yayy!!
