@@ -65,9 +65,8 @@ use
 sudo chown -R $USER:www-data /var/www/html/omeka/
 sudo find /var/www/html/omeka/ -type d -exec chmod 755 {} \;
 sudo find /var/www/html/omeka/ -type f -exec chmod 644 {} \;
-
+sudo chmod -R 775 /var/www/html/omeka/files
 ```
-left off on figuring out conversion from wp-content to omeka content
-
-
+# does it work:
+http://34.44.199.182/omeka/
 
