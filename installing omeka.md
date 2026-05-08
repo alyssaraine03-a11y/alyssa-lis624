@@ -68,5 +68,5 @@ sudo find /var/www/html/omeka/ -type f -exec chmod 644 {} \;
 sudo chmod -R 775 /var/www/html/omeka/files
 ```
 # does it work:
-http://34.44.199.182/omeka/
+http://136.112.36.186/omeka/
 
