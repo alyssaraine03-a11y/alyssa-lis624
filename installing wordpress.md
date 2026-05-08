@@ -69,7 +69,7 @@ sudo nano wp-config.php
 ```
 
 ## site
-http://34.44.199.182/wordpress
+http://136.112.36.186/wordpress
 - site name: Alyssa's Library
 
 # troubleshooting
